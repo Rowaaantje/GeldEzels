@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 790993983089137505, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
       propertyPath: m_text
-      value: ' Hey Katy!'
+      value: '"Hey Katy!"'
       objectReference: {fileID: 0}
     - target: {fileID: 790993983098412260, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
       propertyPath: m_Sprite
