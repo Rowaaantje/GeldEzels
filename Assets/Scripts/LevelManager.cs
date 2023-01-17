@@ -22,10 +22,18 @@ public class LevelManager : MonoBehaviour
     //keuzes
     public void Keuze1()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(19);
     }
     public void Keuze2()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(20);
+    }
+    public void loadsceene21()
+    {
+        SceneManager.LoadScene(21);
+    }
+     public void LoadScene19()
+    {
+        SceneManager.LoadScene(19);
     }
 }
