@@ -19,4 +19,13 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    //keuzes
+    public void Keuze1()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void Keuze2()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
