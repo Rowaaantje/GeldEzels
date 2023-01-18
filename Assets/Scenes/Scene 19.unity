@@ -326,7 +326,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1557924962
+--- !u!1 &1476049658
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -334,39 +334,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1557924963}
-  - component: {fileID: 1557924966}
-  - component: {fileID: 1557924965}
-  - component: {fileID: 1557924964}
-  m_Layer: 9
-  m_Name: Choice1
+  - component: {fileID: 1476049659}
+  - component: {fileID: 1476049661}
+  - component: {fileID: 1476049660}
+  m_Layer: 5
+  m_Name: sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1557924963
+--- !u!224 &1476049659
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557924962}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 1476049658}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1617730171}
-  m_Father: {fileID: 1979142816}
-  m_RootOrder: 6
+  m_Children: []
+  m_Father: {fileID: 1979142815}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -240, y: 30}
-  m_SizeDelta: {x: 250, y: 50}
-  m_Pivot: {x: 0.5, y: 0}
---- !u!114 &1557924964
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 316, y: -37.378998}
+  m_SizeDelta: {x: 567.0816, y: 513.6099}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1476049660
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -442,9 +440,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: 42dddb222813f7b49986062a7e1dbca3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -452,7 +450,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &1557924966
+--- !u!222 &1476049661
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -820,27 +818,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 790993982729095559, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 790993983089137505, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
       propertyPath: m_text
-      value: '"Oh, weet je wat pas irritant is? Ik krijg al een tijdje geen rente
-        meer op mijn rekening."
-
-
-
-'
+      value: "\"Oh, weet je wat pas irritant is? Ik krijg al een tijdje geen rente
+        meer op mijn rekening.\"\n\nA: Bied hulp aan \nB: Vraag naar oplossing "
       objectReference: {fileID: 0}
     - target: {fileID: 790993983098412260, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 6fbf46f579c45c6428fb34d4c8c1dfdf, type: 3}
-    - target: {fileID: 790993983518545563, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 790993983783526742, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -888,7 +874,7 @@ PrefabInstance:
     - target: {fileID: 790993983783526824, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
       propertyPath: m_Name
       value: Manager
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 0
     - target: {fileID: 790993983818999937, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -960,7 +946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!224 &1979142816 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 790993983554245481, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
+  m_CorrespondingSourceObject: {fileID: 790993983098412263, guid: e128c070a6991ae4b8c511c9d1ae17f0, type: 3}
   m_PrefabInstance: {fileID: 1979142814}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1979142819 stripped
@@ -974,3 +960,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8dc4c779af2c784ab20481380e9ad9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+
